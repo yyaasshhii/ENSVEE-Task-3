@@ -1,0 +1,412 @@
+
+body {
+    background-color: #F9F9F9;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.Title {
+    background-color: #222222;
+    padding: 20px 100px 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5%;
+}
+
+.menuAndIcon {
+    display: none;
+}
+
+.icon {
+    display: none;
+}
+
+.servicesMenu {
+    display: none;
+}
+
+
+
+.amazonlogo {
+    width: 100px;
+    height: 30px;
+}
+
+
+.headService {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    color: #AFAFAF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+    cursor: pointer;
+    margin: 0;
+}
+
+.featured {
+    margin: 0 50px;
+}
+
+
+.core{
+    background-color: white;
+    padding: 0 200px;
+}
+
+.cName {
+    color: #17353D;
+    text-align: center;
+    padding: 30px 0 10px 0;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.coreInfo {
+    color: #BB75F8;
+    text-decoration:underline wavy;
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.dataOfP {
+    background-color: #F9F9F9;
+    padding: 25px 100px 0 100px;
+}
+
+.filterAndSort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.totalNoOfProducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noOfPs {
+    color: #17353D;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    float: right;
+}
+
+.filterSort {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 2px solid #F9F9F9;
+    align-items: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterButtonTitle {
+    margin: 0;
+    text-align: left;
+}
+
+.sort {
+    margin-left: 4px;
+}
+
+.sortBtnTitle {
+    margin: 0;
+    text-align: left;
+}
+
+.filterMenu {
+    background-color: white;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 200px;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+
+.filterButton {
+    width: 50%;
+}
+
+.filterButton:hover .filterMenu {
+    display: block;
+}
+
+.filterItems{
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filterItems:hover {
+    background: #E3FBF2;
+    color: #37CB95;
+}
+
+.sortMenu {
+    background-color: white;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 200px;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+
+.sortButton {
+    width: 50%;
+}
+
+.sortButton:hover .sortMenu{
+    display: block;
+}
+
+.sortItems {
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sortItems:hover {
+    background: #E3FBF2;
+    color: #37CB95;
+}
+
+.shoe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px 35px 100px;
+}
+
+.shoeData {
+    background-color: white;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    padding: 40px 15px;
+    margin: 20px;
+   
+}
+
+.shoeImg {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+.horizontalLine {
+    background-color: rgb(135, 130, 130);
+    width: 30px;
+    height: 3px;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+}
+
+.nameAndRating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.shoeName {
+    color: #17353D;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.rating {
+    background-color: #FAE5D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    padding: 2px 4px;
+}
+
+.starImg {
+    width: 15px;
+    height: 15px;
+}
+
+.ratingNumber {
+    color: #F79B34;
+    margin: 0;
+}
+
+.price {
+    color: #E74C3C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.delivery {
+    color: #17353D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width: 641px) {
+    
+
+    .Title {
+        justify-content: flex-start;
+        padding: 15px 0 8px 0;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .menuAndLogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menuIcon {
+        color: #F9F9F9;
+        display: block;
+        margin: 0 130px 0 20px;
+    }
+
+    .servicesMenu {
+        display: block;
+    }
+
+    .servicesMobile {
+        background-color: white;
+        display: none;
+        position: absolute;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        margin-left: 15px;
+        min-width: 100px; 
+        z-index: 1;
+        width: 50%;
+        margin-top: 30px;
+    }
+    
+    .servicesMenu:hover .servicesMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .services {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        cursor: pointer;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        padding : 20px 0;
+    }
+
+    .home {
+        background-color: #E3FBF2;
+        color: #37CB95;
+    }
+
+    .amazonlogo {
+        width: 100px;
+        height: 30px;
+    }
+
+    .headServices {
+        display: none;
+    }
+
+   
+
+    .core {
+        padding: 0 30px;
+        padding-top: calc(7% + 35px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cName {
+        padding: 15px 0 5px 0;
+    }
+
+    .coreInfo {
+        padding-bottom: 15px;
+    }
+
+    
+    .dataOfP{
+        padding: 20px 30px 0 30px;
+    }
+
+    .noOfPs {
+        font-size: medium;
+    }
+    
+    .filterMenu {
+        transform: none;
+    }
+
+    
+    .shoe {
+        padding: 0 30px 30px 30px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .shoeData {
+        width: 90%;
+    }
+}
